@@ -11,7 +11,7 @@ export default function Header() {
         <Link href="/">
           <a className={styles["logo-link"]}>
             <div className={styles.logo}>
-              <Image src={logo.src} alt="Logo" />
+              <Image src={logo.src} alt="Logo" height="75" width="75" />
             </div>
           </a>
         </Link>
