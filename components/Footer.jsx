@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles.p}>
-        Thanks for visiting my site, and I hope I've helped you find a product
-        that suits your needs!
+        Thanks for visiting my site, and I hope I&apos;ve helped you find a
+        product that suits your needs!
       </p>
       <p className={styles.p}>
         By the way, the links on this site are affiliate links. That means that

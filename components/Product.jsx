@@ -15,12 +15,7 @@ export default function Product(props) {
         <ProCon summary="Cons" content={Bad} />
       </div>
       <div className={styles.box}>
-        <a
-          className={styles.btn}
-          href={props.Link}
-          rel="nofollow"
-          target="_blank"
-        >
+        <a className={styles.btn} href={props.Link} rel="nofollow">
           Check Amazon
         </a>
       </div>

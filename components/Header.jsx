@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/Header.module.css";
 import logo from "../assets/TopFivesLogo.png";
 
@@ -9,7 +10,9 @@ export default function Header() {
       <div className={styles["logo-wrap"]}>
         <Link href="/">
           <a className={styles["logo-link"]}>
-            <img src={logo.src} className={styles.logo} alt="" />
+            <div className={styles.logo}>
+              <Image src={logo.src} alt="Logo" />
+            </div>
           </a>
         </Link>
       </div>
