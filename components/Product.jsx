@@ -2,9 +2,9 @@ import ProCon from "./ProCon";
 import styles from "../styles/Product.module.css";
 
 export default function Product(props) {
-  const { Title, Description, ImageLink, Good, Bad } = props;
+  const { Title, Description, ImageLink, Good, Bad, index } = props;
   return (
-    <article className={styles.product}>
+    <article className={styles.product} id={`product-${index}`}>
       <div className={styles.box}>
         <div dangerouslySetInnerHTML={{ __html: ImageLink }}></div>
       </div>

@@ -97,7 +97,7 @@ export default function Post(props) {
       <Intro description={Description} />
       <section className={styles.articles}>
         {Review.map((product, i) => (
-          <Product key={i} {...product} />
+          <Product key={i} index={i} {...product} />
         ))}
       </section>
     </ContentWrapper>
