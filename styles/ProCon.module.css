@@ -1,0 +1,14 @@
+.details {
+  border: 1px dotted #000;
+  margin: 10px 0;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.inner {
+  padding: 1rem 1.5rem;
+}
+
+.ul li {
+  margin-bottom: 0.5rem;
+}

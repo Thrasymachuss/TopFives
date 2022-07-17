@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--primary);
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 75px;
+}
+
+.logo-wrap {
+  width: 75px;
+  height: 100%;
+}
+
+.logo-link {
+  height: 100%;
+}
+
+.link {
+  display: block;
+  height: 100%;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+}
