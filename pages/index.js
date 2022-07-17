@@ -48,7 +48,7 @@ export default function Home({ data }) {
   return (
     <ContentWrapper>
       <Hero
-        title="Top Fives"
+        title="Welcome to Top Fives"
         subhead="We Help You Find the Cream of the Crop"
       />
       <Intro h2="Recent Posts" />
